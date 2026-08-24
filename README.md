@@ -1,3 +1,4 @@
+
 # Corex Browser
 
 Corex Browser, C# ve WPF kullanılarak geliştirilen modern bir Windows web tarayıcısıdır.
@@ -67,6 +68,11 @@ Planlanan veya geliştirilebilecek özellikler:
 ## Ekran Görüntüsü
 
 Proje arayüzüne ait ekran görüntüleri daha sonra bu bölüme eklenecektir.
+
+<img width="1116" height="654" alt="Ayarlar" src="https://github.com/user-attachments/assets/7527b665-64bc-4915-92f5-8244e5053283" />
+<img width="1116" height="654" alt="Ana Sayfa" src="https://github.com/user-attachments/assets/0f0c2552-4dde-48a7-b29a-028447da9153" />
+<img width="1116" height="654" alt="indirilenler" src="https://github.com/user-attachments/assets/cc71b285-c1f2-4527-bd45-4c9d72f47fce" />
+<img width="895" height="522" alt="Geçmiş" src="https://github.com/user-attachments/assets/f2031db2-f3ab-44cd-926b-1eed0392b3ed" />
 
 ## Lisans
 
