@@ -1,0 +1,38 @@
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\bin\Debug\net10.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\bin\Debug\net10.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\bin\Debug\net10.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\bin\Debug\net10.0-windows\Corex Browser.exe
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\bin\Debug\net10.0-windows\Corex Browser.deps.json
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\bin\Debug\net10.0-windows\Corex Browser.runtimeconfig.json
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\bin\Debug\net10.0-windows\Corex Browser.dll
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\bin\Debug\net10.0-windows\Corex Browser.pdb
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\bin\Debug\net10.0-windows\Microsoft.Web.WebView2.Core.dll
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\bin\Debug\net10.0-windows\Microsoft.Web.WebView2.WinForms.dll
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\bin\Debug\net10.0-windows\Microsoft.Web.WebView2.Wpf.dll
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\bin\Debug\net10.0-windows\Microsoft.Web.WebView2.Core.xml
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\bin\Debug\net10.0-windows\Microsoft.Web.WebView2.WinForms.xml
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\bin\Debug\net10.0-windows\Microsoft.Web.WebView2.Wpf.xml
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\obj\Debug\net10.0-windows\Corex Browser.csproj.AssemblyReference.cache
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\obj\Debug\net10.0-windows\Icons\FluentIcons.baml
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\obj\Debug\net10.0-windows\SettingsWindow.baml
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\obj\Debug\net10.0-windows\Themes\DarkTheme.baml
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\obj\Debug\net10.0-windows\MainWindow.g.cs
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\obj\Debug\net10.0-windows\SettingsWindow.g.cs
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\obj\Debug\net10.0-windows\App.g.cs
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\obj\Debug\net10.0-windows\Corex Browser_Content.g.cs
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\obj\Debug\net10.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\obj\Debug\net10.0-windows\Corex Browser_MarkupCompile.cache
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\obj\Debug\net10.0-windows\Corex Browser_MarkupCompile.lref
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\obj\Debug\net10.0-windows\App.baml
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\obj\Debug\net10.0-windows\MainWindow.baml
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\obj\Debug\net10.0-windows\Corex Browser.g.resources
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\obj\Debug\net10.0-windows\Corex Browser.GeneratedMSBuildEditorConfig.editorconfig
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\obj\Debug\net10.0-windows\Corex Browser.AssemblyInfoInputs.cache
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\obj\Debug\net10.0-windows\Corex Browser.AssemblyInfo.cs
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\obj\Debug\net10.0-windows\Corex Browser.csproj.CoreCompileInputs.cache
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\obj\Debug\net10.0-windows\Corex Br.60A4DB01.Up2Date
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\obj\Debug\net10.0-windows\Corex Browser.dll
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\obj\Debug\net10.0-windows\refint\Corex Browser.dll
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\obj\Debug\net10.0-windows\Corex Browser.pdb
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\obj\Debug\net10.0-windows\Corex Browser.genruntimeconfig.cache
+D:\Masaüstü\C#\Kaynak_Kodları\Corex Browser\Corex Browser\obj\Debug\net10.0-windows\ref\Corex Browser.dll

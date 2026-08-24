@@ -1,0 +1,238 @@
+﻿<Window x:Class="CorexBrowser.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Width="720"
+        Height="480"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Background="Transparent"
+        Loaded="Window_Loaded"
+        AllowsTransparency="True">
+
+    <!-- DIŞ KART -->
+    <Border CornerRadius="14"
+            Background="{StaticResource BgBrush}"
+            BorderBrush="{StaticResource BorderBrush}"
+            BorderThickness="1">
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="52"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- ================= TITLE BAR ================= -->
+            <Grid Grid.Row="0"
+                  Background="{StaticResource SurfaceBrush}"
+                  MouseLeftButtonDown="TitleBar_MouseDown">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Text="Ayarlar"
+                           VerticalAlignment="Center"
+                           Margin="16,0,0,0"
+                           FontSize="15"
+                           FontWeight="SemiBold"/>
+
+                <!-- KAPAT -->
+                <Button Grid.Column="1"
+                        Width="36"
+                        Height="36"
+                        Margin="0,0,12,0"
+                        Click="Close_Click"
+                        Content="X"
+                        Style="{StaticResource IconButton}" Cursor="">
+                    
+                </Button>
+            </Grid>
+
+            <!-- ================= CONTENT ================= -->
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="220"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- ========== SOL MENÜ ========== -->
+                <Border Grid.Column="0"
+                        Background="{StaticResource SurfaceLightBrush}"
+                        Padding="12">
+
+                    <StackPanel>
+
+
+                        <!-- Genel -->
+                        <Border CornerRadius="8"
+        Padding="10"
+        Margin="0,0,0,6"
+        
+        MouseLeftButtonDown="NavGeneral_Click">
+                            <TextBlock Text="Genel"/>
+                        </Border>
+
+
+                        <!-- Gizlilik -->
+                        <Border CornerRadius="8"
+        Padding="10"
+        Margin="0,0,0,6"
+        
+        MouseLeftButtonDown="NavPrivacy_Click">
+                            <TextBlock Text="Gizlilik"/>
+                        </Border>
+
+
+                        <!-- Hakkında -->
+                        <Border CornerRadius="8"
+        Padding="10"
+       
+        MouseLeftButtonDown="NavAbout_Click">
+                            <TextBlock Text="Hakkında"/>
+                        </Border>
+
+
+                    </StackPanel>
+                </Border>
+
+                <!-- ========== SAĞ İÇERİK ========== -->
+                <ScrollViewer Grid.Column="1"
+                              VerticalScrollBarVisibility="Auto">
+
+                    <Border Padding="24">
+                        <Grid>
+
+                            <!-- ===== GENEL ===== -->
+                            <StackPanel>
+                                <StackPanel.Style>
+                                    <Style TargetType="StackPanel">
+                                        <Setter Property="Visibility" Value="Collapsed"/>
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding CurrentSection}" Value="General">
+                                                <Setter Property="Visibility" Value="Visible"/>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </StackPanel.Style>
+                                <TextBlock Text="Genel Ayarlar"
+                                           FontSize="18"
+                                           FontWeight="SemiBold"
+                                           Margin="0,0,0,16"/>
+
+                                <!-- Ana Sayfa -->
+                                <Border CornerRadius="8"
+                                        Background="{StaticResource SurfaceBrush}"
+                                        BorderBrush="{StaticResource BorderBrush}"
+                                        BorderThickness="1"
+                                        Padding="12"
+                                        Margin="0,0,0,12">
+
+                                    <StackPanel>
+                                        <TextBlock Text="Ana Sayfa"
+                                                   FontWeight="SemiBold"/>
+                                        <TextBox x:Name="HomePageTextBox"
+                                                 Height="34"
+                                                 Margin="0,6,0,0"
+                                                 Background="{StaticResource BgBrush}"
+                                                 BorderBrush="{StaticResource BorderBrush}"
+                                                 Padding="8"/>
+                                    </StackPanel>
+                                </Border>
+
+                                <!-- Arama Motoru -->
+                                <Border CornerRadius="8"
+                                        Background="{StaticResource SurfaceBrush}"
+                                        BorderBrush="{StaticResource BorderBrush}"
+                                        BorderThickness="1"
+                                        Padding="12">
+
+                                    <StackPanel>
+                                        <TextBlock Text="Varsayılan Arama Motoru"
+               FontWeight="SemiBold"
+               Margin="0,0,0,6"/>
+
+                                        <ComboBox x:Name="SearchEngineComboBox"
+          Style="{StaticResource ModernComboBox}"
+          SelectionChanged="SearchEngineComboBox_SelectionChanged">
+
+                                            <ComboBoxItem Tag="google">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <TextBlock Text="🔍" Margin="0,0,6,0"/>
+                                                    <TextBlock Text="Google"/>
+                                                </StackPanel>
+                                            </ComboBoxItem>
+
+                                            <ComboBoxItem Tag="bing">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <TextBlock Text="🅱" Margin="0,0,6,0"/>
+                                                    <TextBlock Text="Bing"/>
+                                                </StackPanel>
+                                            </ComboBoxItem>
+
+                                            <ComboBoxItem Tag="duckduckgo">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <TextBlock Text="🦆" Margin="0,0,6,0"/>
+                                                    <TextBlock Text="DuckDuckGo"/>
+                                                </StackPanel>
+                                            </ComboBoxItem>
+
+                                        </ComboBox>
+
+                                    </StackPanel>
+
+                                </Border>
+                            </StackPanel>
+
+                            <!-- ===== GİZLİLİK ===== -->
+                            <StackPanel>
+                                <StackPanel.Style>
+                                    <Style TargetType="StackPanel">
+                                        <Setter Property="Visibility" Value="Collapsed"/>
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding CurrentSection}" Value="Privacy">
+                                                <Setter Property="Visibility" Value="Visible"/>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </StackPanel.Style>
+                                <TextBlock Text="Gizlilik"
+                                           FontSize="18"
+                                           FontWeight="SemiBold"
+                                           Margin="0,0,0,16"/>
+
+                                <CheckBox Content="Çerezleri otomatik temizle"
+                                          Margin="0,0,0,8"/>
+                                <CheckBox Content="Takip korumasını etkinleştir"/>
+                            </StackPanel>
+
+                            <!-- ===== HAKKINDA ===== -->
+                            <StackPanel>
+                                <StackPanel.Style>
+                                    <Style TargetType="StackPanel">
+                                        <Setter Property="Visibility" Value="Collapsed"/>
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding CurrentSection}" Value="About">
+                                                <Setter Property="Visibility" Value="Visible"/>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </StackPanel.Style>
+                                <TextBlock Text="Corex Browser"
+                                           FontSize="18"
+                                           FontWeight="SemiBold"/>
+                                <TextBlock Text="Sürüm 1.0.0"
+                                           Margin="0,8,0,0"/>
+                                <TextBlock Text="Modern, hafif ve güvenli bir tarayıcı."
+                                           Opacity="0.7"
+                                           Margin="0,4,0,0"/>
+                            </StackPanel>
+
+                        </Grid>
+                    </Border>
+
+                </ScrollViewer>
+            </Grid>
+        </Grid>
+    </Border>
+</Window>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Vb6Zv12LcHk=",
+  "success": true,
+  "projectFilePath": "D:\\Masaüstü\\C#\\Kaynak_Kodları\\Corex Browser\\Corex Browser\\Corex Browser.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yusuf\\.nuget\\packages\\microsoft.web.webview2\\1.0.3650.58\\microsoft.web.webview2.1.0.3650.58.nupkg.sha512"
+  ],
+  "logs": []
+}

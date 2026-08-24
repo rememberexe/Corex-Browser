@@ -1,0 +1,52 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- BACK -->
+    <Geometry x:Key="IconBack">
+        M15 4L7 12L15 20
+    </Geometry>
+
+    <!-- FORWARD -->
+    <Geometry x:Key="IconForward">
+        M9 4L17 12L9 20
+    </Geometry>
+
+    <!-- REFRESH -->
+    <Geometry x:Key="IconRefresh">
+        M20 12A8 8 0 1 1 18 7
+    </Geometry>
+
+    <!-- LOCK -->
+    <Geometry x:Key="IconLock">
+        M6 10V8A6 6 0 0 1 18 8V10
+        M5 10H19V20H5Z
+    </Geometry>
+
+    <!-- MENU -->
+    <Geometry x:Key="IconMenu">
+        M4 6H20
+        M4 12H20
+        M4 18H20
+    </Geometry>
+
+    <!-- PLUS -->
+    <Geometry x:Key="IconPlus">
+        M12 5V19
+        M5 12H19
+    </Geometry>
+    <Geometry x:Key="IconSettings">
+        M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10
+10-4.48 10-10S17.52 2 12 2zm1 17.93
+c-2.83.48-5.68-.3-7.78-2.39
+C3.3 14.68 2.52 11.83 3 9
+h2.07c-.45 2.28.24 4.73
+2.02 6.51 1.78 1.78 4.23
+2.47 6.51 2.02v2.07zm7.93-6.93
+c-.48 2.83-2.26 5.68-4.35
+7.78C14.68 20.7 11.83 21.48
+9 21v-2.07c2.28.45 4.73-.24
+6.51-2.02 1.78-1.78 2.47-4.23
+2.02-6.51h2.07z
+    </Geometry>
+
+</ResourceDictionary>
